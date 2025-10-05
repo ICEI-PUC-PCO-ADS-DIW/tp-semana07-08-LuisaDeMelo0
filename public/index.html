@@ -49,35 +49,12 @@
 
 
  
+  <section class="receitaspopulares container">
   <h2 class="tituloreceitaspopulares text-center my-4">---- Receitas Populares ----</h2>
 
-
-  <section class="receitaspopulares container">
-    <div class="row g-3">
-      <div class="col-md-6">
-        <div class="receita">
-          <a href="detalhes.html?id=1"><img src="https://picsum.photos/id/101/600/400" alt="Receita 1" class="img-fluid"></a>
-          <h3>Receita 1</h3>
-          <p>Uma deliciosa receita de bolo de chocolate, ótima sobremesa rápida.</p>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="receita">
-          <a href="detalhes.html?id=2"><img src="https://picsum.photos/id/102/600/400" alt="Receita 2" class="img-fluid"></a>
-          <h3>Receita 2</h3>
-          <p>Salada refrescante com ingredientes naturais, ótima para o verão.</p>
-        </div>
-      </div>
-      <div class="col-12 col-md-12">
-        <div class="receita">
-          <a href="detalhes.html?id=3"><img src="https://picsum.photos/id/103/600/400" alt="Receita 3" class="img-fluid"></a>
-          <h3>Receita 3</h3>
-          <p>Prato saboroso de massa com molho caseiro, fácil de preparar.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
+  <!-- Container único para todos os cards dinâmicos -->
+  <div id="cards-container" class="row g-3"></div>
+</section>
 
  
   <section>
@@ -107,6 +84,8 @@
       <a href="#"><i class="fab fa-youtube"></i></a>
     </div>
   </footer>
+  
+<script src="app.js"></script>
 
 </body>
 </html>
