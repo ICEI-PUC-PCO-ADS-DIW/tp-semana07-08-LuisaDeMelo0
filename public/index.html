@@ -1,13 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="app.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Receitas Culinárias</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
+
 <body>
-    <h1>Olá mundo</h1>
+
+
+ 
+  <header class="cabecalho w-100 d-flex flex-wrap justify-content-between align-items-center">
+    <h1 class="titulosite">Prato Online</h1>
+    <div id="botaopesquisa">
+      <form class="d-flex gap-2" action="/buscar" method="get">
+        <input type="text" name="query" placeholder="Pesquisar Receita" class="form-control">
+        <button type="submit" class="btn btn-primary">Buscar</button>
+      </form>
+    </div>
+  </header>
+
+
+ 
+  <header class="cabecalhosec">
+    <nav class="menu container">
+      <ul class="nav justify-content-center flex-wrap">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="receitas.html">Receitas</a></li>
+        <li class="nav-item"><a class="nav-link" href="categorias.html">Categorias</a></li>
+        <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+ 
+  <section class="banner text-center">
+    <img src="https://picsum.photos/1600/500" alt="" class="img-fluid">
+    <div id="mensagembanner" class="d-flex justify-content-between align-items-center p-3 mt-2 mb-2 container">
+      <figcaption>Confira a melhor receita culinária da semana!</figcaption>
+      <button class="botaoreceita btn btn-warning">Ver Receita</button>
+    </div>
+  </section>
+
+
+ 
+  <h2 class="tituloreceitaspopulares text-center my-4">---- Receitas Populares ----</h2>
+
+
+  <section class="receitaspopulares container">
+    <div class="row g-3">
+      <div class="col-md-6">
+        <div class="receita">
+          <a href="detalhes.html?id=1"><img src="https://picsum.photos/id/101/600/400" alt="Receita 1" class="img-fluid"></a>
+          <h3>Receita 1</h3>
+          <p>Uma deliciosa receita de bolo de chocolate, ótima sobremesa rápida.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="receita">
+          <a href="detalhes.html?id=2"><img src="https://picsum.photos/id/102/600/400" alt="Receita 2" class="img-fluid"></a>
+          <h3>Receita 2</h3>
+          <p>Salada refrescante com ingredientes naturais, ótima para o verão.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-12">
+        <div class="receita">
+          <a href="detalhes.html?id=3"><img src="https://picsum.photos/id/103/600/400" alt="Receita 3" class="img-fluid"></a>
+          <h3>Receita 3</h3>
+          <p>Prato saboroso de massa com molho caseiro, fácil de preparar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+ 
+  <section>
+    <h3 class="titulocategorias text-center my-4">---- Categorias ----</h3>
+    <div class="categorias container d-flex flex-wrap justify-content-center gap-2">
+      <button class="botao-categoria btn">Sobremesas</button>
+      <button class="botao-categoria btn">Vegano</button>
+      <button class="botao-categoria btn">Fitness</button>
+      <button class="botao-categoria btn">Massas</button>
+      <button class="botao-categoria btn">Bebidas</button>
+      <button class="botao-categoria btn">Pratos Principais</button>
+    </div>
+  </section>
+
+
+ 
+  <footer class="rodape mt-4">
+    <div class="links-rodape d-flex justify-content-center gap-3 mb-2">
+      <a href="#">Política de Privacidade</a>
+      <span>|</span>
+      <a href="#">Termos de Uso</a>
+    </div>
+    <div class="redes-rodape d-flex justify-content-center gap-3 mt-3">
+      <span>Siga-nos:</span>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+
 </body>
 </html>

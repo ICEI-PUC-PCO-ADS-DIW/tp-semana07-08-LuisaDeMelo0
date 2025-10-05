@@ -1,0 +1,211 @@
+body {
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.cabecalho {
+  background-color: #ff7f50;
+  width: 100%;        
+  color: white;
+  padding:30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.titulosite {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+
+
+#botaopesquisa form {
+  display: flex;
+  gap: 10px;
+}
+
+
+#botaopesquisa input[type="text"] {
+  height: 40px;
+  font-size: 16px;
+  padding: 0 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+
+#botaopesquisa button {
+  height: 40px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #ff7f50;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+#botaopesquisa button:hover {
+  background-color: #ffe6d9;
+}
+
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+
+.menu a {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+
+.menu a:hover {
+  color: white;
+  background-color: #be774e;
+  border-radius: 4px;
+}
+
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+
+#mensagembanner {
+  width: 100%;                
+  background-color: #ff8f67;  
+  display: flex;
+  justify-content: center;    
+  align-items: center;        
+  padding: 15px 20px;
+  box-sizing: border-box;
+  margin: 0;
+  flex-wrap: wrap;}
+
+
+.banner figcaption {
+  font-size: 24px;
+  color: #000;
+}
+
+
+#mensagembanner .botaoreceita {
+  height: 40px;
+  font-size: 16px;
+  background-color: #fff !important;  
+  color: #ff7f50 !important;          
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;}
+
+
+.botaoreceita:hover {
+  background-color: #ff7f50;  
+  color: #fff;                
+}
+
+
+.tituloreceitaspopulares {
+  text-align: center;
+  font-size: 28px;
+  color: #ff7f50;
+  margin: 30px 0 10px;
+}
+
+
+.receita img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+
+.receita h3 {
+  font-size: 20px;
+  color: #ff7f50;
+  margin: 10px 0;
+  text-align: center;
+}
+
+
+.receita p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+
+.titulocategorias {
+  text-align: center;
+  font-size: 26px;
+  color: #ff7f50;
+  margin: 20px 0 10px;
+}
+
+
+.categorias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 0 auto;
+}
+
+
+.botao-categoria {
+  display: inline-block;
+  font-size: 24px;
+  padding: 25px 30px;
+  background-color: #ff7043 !important;
+  color: #fff !important;              
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+
+.botao-categoria:hover {
+  background-color: #e64a19 !important;
+  color: #fff !important;
+}
+
+
+.rodape {
+  background-color: #a1a0a0;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  margin-top: 30px;
+}
+
+
+.links-rodape {
+  margin-bottom: 15px;
+}
