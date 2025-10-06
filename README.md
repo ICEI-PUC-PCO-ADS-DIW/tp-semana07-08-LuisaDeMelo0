@@ -21,25 +21,23 @@ Leia o enunciado completo no Canvas.
 
 ## Print da Home-Page
 
-<<  COLOQUE A IMAGEM AQUI >>
+![](./public/images/inicio.pag.png)
+![](./public/images/meio.pag.png)
+![](./public/images/final.pag.png)
 
 ## Print da página de detalhes do item
 
-<<  COLOQUE A IMAGEM AQUI >>
+![](./public/images/paginadetalhes.png)
 
 ## Cole aqui abaixo a estrutura JSON utilizada no app.js
 
 ```javascript
-const dados = [
-  {
-    "id": 1,
-    "titulo": "Prefeitura Lança Plano de Mobilidade Urbana",
-    "descricao": "Novo plano do transporte público.",
-    "conteudo": "A Prefeitura apresentou nesta segunda-feira um novo plano de mobilidade urbana.",
-    "categoria": "Cidades",
-    "autor": "Joana Ribeiro",
-    "data": "2025-03-30",
-    "imagem": "img/mobilidade.jpg"
-  }
-]
+const receitas = [
+  { id: 1, titulo: "Receita 1", descricao: "Bolo de chocolate delicioso", imagem: "https://picsum.photos/id/101/600/400" },
+  { id: 2, titulo: "Receita 2", descricao: "Salada refrescante", imagem: "https://picsum.photos/id/102/600/400" },
+  { id: 3, titulo: "Receita 3", descricao: "Massa caseira", imagem: "https://picsum.photos/id/103/600/400" },
+  { id: 4, titulo: "Receita 4", descricao: "Sobremesa de frutas vermelhas", imagem: "https://picsum.photos/id/104/600/400" },
+  { id: 5, titulo: "Receita 5", descricao: "Frango grelhado com legumes", imagem: "https://picsum.photos/id/108/600/400" },
+  { id: 6, titulo: "Receita 6", descricao: "Panquecas fofinhas", imagem: "https://picsum.photos/id/106/600/400"},
+];
 ```
