@@ -14,10 +14,10 @@ Leia o enunciado completo no Canvas.
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Luísa de Melo
+- Matricula: 1629202
+- Proposta de projeto escolhida: Página de receitas culinárias
+- Breve descrição sobre seu projeto: Meu projeto é uma página de receitas culinárias dos mais diversos tipos.
 
 ## Print da Home-Page
 
