@@ -60,6 +60,10 @@ body {
   background-color: #ffe6d9;
 }
 
+.banner {
+  background-color: #ff7f50;
+}
+
 
 .menu ul {
   list-style: none;
@@ -93,8 +97,7 @@ body {
 
 
 #mensagembanner {
-  width: 100%;                
-  background-color: #ff8f67;  
+  width: 100%;                  
   display: flex;
   justify-content: center;    
   align-items: center;        
@@ -119,6 +122,12 @@ body {
   border-radius: 4px;
   font-weight: bold;
   cursor: pointer;}
+
+
+.botaoreceita {
+
+  margin-left: 0;
+}
 
 
 .botaoreceita:hover {
@@ -206,6 +215,10 @@ body {
 }
 
 
-.links-rodape {
+.links-rodape a{
+  color: #ffffff;
   margin-bottom: 15px;
+}
+.redes-rodape i {
+  color: black; 
 }
